@@ -1,6 +1,6 @@
 # ⚙️ Laravel Env Migrations
 
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square) ![Status](https://img.shields.io/badge/Status-Stable-brightgreen?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/dimer47/laravel-env-migrations?style=flat-square&logo=github) ![GitHub License](https://img.shields.io/github/license/dimer47/laravel-env-migrations?style=flat-square) ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![GitHub last commit](https://img.shields.io/github/last-commit/dimer47/laravel-env-migrations?style=flat-square) ![GitHub repo size](https://img.shields.io/github/repo-size/dimer47/laravel-env-migrations?style=flat-square)
 
 > Versioned migration system for Laravel's `.env` file, similar to database migrations. 🗂️
 
