@@ -3,7 +3,7 @@
     "description": "Versioned migration system for Laravel's .env file, similar to database migrations.",
     "keywords": ["laravel", "env", "migrations", "environment", "dotenv", "configuration"],
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "library",
     "require": {
         "php": "^8.2",
