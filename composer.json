@@ -1,6 +1,6 @@
 {
     "name": "dimer47/laravel-env-migrations",
-    "description": "Système de migrations versionné pour le fichier .env de Laravel, similaire aux migrations de base de données.",
+    "description": "Versioned migration system for Laravel's .env file, similar to database migrations.",
     "keywords": ["laravel", "env", "migrations", "environment", "dotenv", "configuration"],
     "license": "MIT",
     "version": "1.0.0",
