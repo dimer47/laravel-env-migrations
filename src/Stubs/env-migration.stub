@@ -1,0 +1,52 @@
+<?php
+
+use Dimer47\EnvMigrations\EnvMigration;
+
+return new class extends EnvMigration
+{
+    /**
+     * Description de la migration
+     */
+    public function getDescription(): string
+    {
+        return 'Description de la migration';
+    }
+
+    /**
+     * Exécuter la migration
+     */
+    public function up(): void
+    {
+        // Exemples d'utilisation :
+
+        // Définir une variable
+        // $this->set('MA_VARIABLE', 'valeur');
+
+        // Définir une variable seulement si elle n'existe pas
+        // $this->setIfMissing('MA_VARIABLE', 'valeur_par_defaut');
+
+        // Copier la valeur d'une variable vers une autre
+        // $this->copy('SOURCE_VAR', 'TARGET_VAR');
+
+        // Renommer une variable
+        // $this->rename('ANCIEN_NOM', 'NOUVEAU_NOM');
+
+        // Supprimer une variable
+        // $this->remove('VARIABLE_A_SUPPRIMER');
+
+        // Ajouter un bloc de configuration
+        // $this->appendBlock(<<<'ENV'
+        // # Mon bloc de configuration
+        // MA_VAR_1=valeur1
+        // MA_VAR_2=valeur2
+        // ENV, 'MA_VAR_1');  // L'identifiant permet d'éviter les doublons
+    }
+
+    /**
+     * Annuler la migration
+     */
+    public function down(): void
+    {
+        // Annuler les changements effectués dans up()
+    }
+};
